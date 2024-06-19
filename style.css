@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+input {
+
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.search-container {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  /* TODO */
+}
+.search-container input {
+  padding: 10px;
+  background-color: #ff7e5f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+ /* TODO */
+}
+.search-container .suggestions {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+}
+   /* TODO */
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* TODO */
+}
+ul.has-suggestions {
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  /* TODO */
+}
+ul li {
+  padding: 5px;
+  cursor:pointer;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  /* TODO */
+}
+ul li:hover {
+  background-color: #ffb07b;
+
+  /* TODO */
+}
+
+input {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+   /* TODO */
+}
