@@ -52,7 +52,7 @@ function useSuggestion(e) {
 }
 
 input.addEventListener('keyup', searchHandler);
-suggestionsList.addEventListener('click', useSuggestion);s) {
+suggestionsList.addEventListener('click', useSuggestion);) {
 	if (results.length > 0) {
 		results.forEach(result => {
 		  const li = document.createElement('li');
