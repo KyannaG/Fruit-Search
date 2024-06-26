@@ -52,30 +52,4 @@ function useSuggestion(e) {
 }
 
 input.addEventListener('keyup', searchHandler);
-suggestionsList.addEventListener('click', useSuggestion); {
-	if (results.length > 0) {
-		results.forEach(result => {
-		  const li = document.createElement('li');
-		  li.textContent = result;
-		  suggestionsList.appendChild(li);
-		});
-		suggestionsList.parentNode.classList.add('has-suggestions');
-	  } else {
-		suggestionsList.parentNode.classList.remove('has-suggestions');
-	  }
-	}
-
-	// TODO
-
-function useSuggestion(e) {
-	if (e.target.tagName === 'LI') {
-		input.value = e.target.textContent;
-		suggestionsList.innerHTML = '';
-		suggestionsList.parentNode.classList.remove('has-suggestions');
-	}
-
-	// TODO
-}
-
-input.addEventListener('keyup', searchHandler);
-suggestions.addEventListener('click', useSuggestion);
+suggestionsList.addEventListener('click', useSuggestion);
